@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Page</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                    <div class="small-images">
+                        <img src="image/1.jpg" onclick="clickimg(this)" alt="">
+                        <img src="image/2.jpg" onclick="clickimg(this)" alt="">
+                        <img src="image/3.jpg" onclick="clickimg(this)" alt="">
+                        <img src="image/4.jpg" onclick="clickimg(this)" alt="">
+                    </div>
+
+                    <div class="main-images">
+                        <img src="image/1.jpg" alt="img not found" id="imageBox">
+                    </div>
+                </div>
+            </div>
+
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Brand : Zebronics</p>
+                    <h2>Zebronics Jet PRO Premium Wired Gaming On Ear Headphone with LED for Headband + earcups, 40mm Neodymium Drivers, 2 Meter Braided Cable, with mic, Suspension Design, 3.5mm + USB Connector (Black, Blue)</h2>
+                    <div class="review">
+                        <span>(4.6)</span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="pricebox">
+                        <p class="price"> &#8377; 899</p>
+                        <strike>&#8377; 1599</strike>
+                    </div>
+
+                    <p>Quantity <input type="text" value="1"> </p>
+                    <button>
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        Add to Cart
+                    </button>
+                    <button class="buy">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
